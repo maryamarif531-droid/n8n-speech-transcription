@@ -1,0 +1,28 @@
+{
+  "name": "n8n-speech-transcription",
+  "version": "1.0.0",
+  "description": "n8n speech transcription workflow deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start",
+    "build": "echo 'No build step required'",
+    "tunnel": "n8n start --tunnel"
+  },
+  "dependencies": {
+    "n8n": "^1.19.4",
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "automation",
+    "speech-transcription"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
